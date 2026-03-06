@@ -1,0 +1,33 @@
+{
+  "name": "architect-ai",
+  "version": "1.0.0",
+  "description": "Curriculum-locked AI study engine for Indian technical education",
+  "scripts": {
+    "dev": "bash scripts/local-dev.sh",
+    "dev:windows": "scripts\\local-dev.bat",
+    "deploy:backend": "bash scripts/deploy-backend.sh",
+    "deploy:backend:windows": "scripts\\deploy-backend.bat",
+    "deploy:frontend": "bash scripts/deploy-frontend.sh",
+    "deploy:frontend:windows": "scripts\\deploy-frontend.bat",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harry1365/tech-spur.git"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "rag",
+    "aws",
+    "serverless",
+    "msbte",
+    "curriculum"
+  ],
+  "author": "Architect-AI Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harry1365/tech-spur/issues"
+  },
+  "homepage": "https://github.com/harry1365/tech-spur#readme"
+}

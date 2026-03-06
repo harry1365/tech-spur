@@ -1,0 +1,16 @@
+{
+  "CM-5": {
+    "software_engineering": [
+      {
+        "topic": "Agile Methodology",
+        "reference": "msbte_cm5_se.pdf",
+        "page_range": "12-18"
+      },
+      {
+        "topic": "UML Diagrams",
+        "reference": "msbte_cm5_se.pdf",
+        "page_range": "45-60"
+      }
+    ]
+  }
+}

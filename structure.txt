@@ -1,0 +1,27 @@
+Architect-AI/
+├── backend/ # AWS Lambda functions & Flask API
+│ ├── api/ # API route handlers
+│ ├── services/ # Business logic
+│ │ ├── ai_service.py # Amazon Bedrock / Claude 3.5 Integration
+│ │ ├── rag_service.py # Vector DB & Titan Embedding logic
+│ │ └── crypto_utils.py # Libsodium wrapper for secure storage
+│ ├── app.py # Main entry point
+│ └── requirements.txt # Python dependencies
+├── frontend/ # React + Tailwind Dashboard
+│ ├── src/
+│ │ ├── components/ # UI Components (Roadmap, Debugger, Vault)
+│ │ ├── hooks/ # Custom React hooks for Crypto/Web3
+│ │ └── utils/ # Libsodium.js integration logic
+│ └── package.json
+├── blockchain/ # Antigravity L1 Integration
+│ ├── contracts/ # Solidity/Move contracts for Proof of Learning
+│ ├── scripts/ # Deployment and Minting scripts
+│ └── antigravity.config # Connection settings for L1 Node
+├── docs/ # Documentation
+│ ├── DESIGN.md # System Architecture & RAG flow
+│ ├── API_SPEC.md # Endpoint definitions
+│ └── SYLLABUS_MAP.json # Mock mapping of MSBTE codes to resources
+├── infrastructure/ # AWS CloudFormation or Terraform (Optional)
+│ └── template.yaml # AWS SAM template for Lambda/S3/DynamoDB
+├── .env.example # Environment variables template
+└── README.md # Project overview

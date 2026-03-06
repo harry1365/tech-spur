@@ -1,0 +1,83 @@
+================================================================================
+                    RUN THESE COMMANDS IN GIT BASH
+================================================================================
+
+You're in Git Bash (MINGW64) - that's perfect! Git works there.
+
+Copy and paste these commands ONE BY ONE into your Git Bash terminal:
+
+
+STEP 1: Navigate to the project folder
+================================================================================
+
+cd /c/Users/Harry/Downloads/ArchitectAI-Clean
+
+
+STEP 2: Configure Git (first time only)
+================================================================================
+
+git config --global user.name "Harry"
+git config --global user.email "your-email@example.com"
+
+(Replace "your-email@example.com" with your actual GitHub email)
+
+
+STEP 3: Initialize Git repository
+================================================================================
+
+git init
+
+
+STEP 4: Add GitHub remote
+================================================================================
+
+git remote add origin https://github.com/harry1365/tech-spur.git
+
+
+STEP 5: Add all files
+================================================================================
+
+git add .
+
+
+STEP 6: Create commit
+================================================================================
+
+git commit -m "feat: Complete deployment setup with AWS Lambda + Vercel"
+
+
+STEP 7: Push to GitHub
+================================================================================
+
+git branch -M main
+git push -u origin main
+
+
+When prompted for credentials:
+- Username: harry1365
+- Password: 
+  * If you have 2FA: Use Personal Access Token from https://github.com/settings/tokens
+  * If no 2FA: Use your regular password
+
+
+================================================================================
+                    OR USE THE AUTOMATED SCRIPT
+================================================================================
+
+Instead of running commands manually, you can run:
+
+bash push-to-github.sh
+
+This will do everything automatically!
+
+
+================================================================================
+                    AFTER PUSHING
+================================================================================
+
+1. Go to: https://github.com/harry1365/tech-spur
+2. Verify all files are there
+3. Follow START_HERE.md to deploy
+
+
+================================================================================
