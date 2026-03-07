@@ -1,0 +1,56 @@
+================================================================================
+                    RUN THESE COMMANDS IN GIT BASH
+================================================================================
+
+GitHub blocked the push because some files contained your token.
+I've removed those files. Now let's push the clean version.
+
+
+Run these commands in your Git Bash terminal:
+
+
+1. Remove the old commit and create a new one:
+--------------------------------------------------------------------------------
+git reset HEAD~1
+
+
+2. Add all files (without the token files):
+--------------------------------------------------------------------------------
+git add .
+
+
+3. Create a new clean commit:
+--------------------------------------------------------------------------------
+git commit -m "feat: Complete deployment setup with AWS Lambda + Vercel
+
+- Add AWS SAM infrastructure templates
+- Add GitHub Actions CI/CD workflows
+- Add deployment scripts for Windows and Linux
+- Add comprehensive documentation
+- Configure Vercel deployment
+- Add environment variable templates
+- Update README with deployment instructions
+- Add security and monitoring configurations"
+
+
+4. Force push to GitHub:
+--------------------------------------------------------------------------------
+git push -u origin main --force
+
+
+When prompted for credentials:
+- Username: harry1365
+- Password: [paste your token - don't save it in files!]
+
+
+================================================================================
+                    AFTER SUCCESSFUL PUSH
+================================================================================
+
+1. Go to: https://github.com/harry1365/tech-spur
+2. Verify all files are there
+3. Delete this file
+4. Follow START_HERE.md to deploy
+
+
+================================================================================
